@@ -511,7 +511,7 @@ input {
 }
 .footer {
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 }
 .footer svg {
 	margin-bottom: -5px;
@@ -712,7 +712,6 @@ input {
 	.footer {
 		background-color: var(--second-color);
 		height: 470px;
-		overflow: hidden;
 	}
 	.footer-about {
 		order: 1;
