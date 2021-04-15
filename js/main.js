@@ -11,7 +11,7 @@ bars.onclick = function width1() {
 };
 
 function close1() {
-    ul.style.left = "-700px";
+    ul.style.left = "-1000px";
     ul.style.transition = "left 2s";
 };
 console.log(ul)
