@@ -712,7 +712,7 @@ input {
 	.footer {
 		background-color: var(--second-color);
 		height: 470px;
-		overflow: visible;
+		overflow: hidden;
 	}
 	.footer-about {
 		order: 1;
