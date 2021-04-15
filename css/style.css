@@ -606,7 +606,7 @@ input {
 		-o-border-radius: 30px;
 	}
 	.home-header-nav ul {
-		background-color: #fff;
+		background-color: var(--light-color);
 		position: absolute;
 		top: 0;
 		left: -1000px;
@@ -614,7 +614,7 @@ input {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		z-index: 200;
+		z-index: 100;
 		transition: width 1s;
 		-webkit-transition: width 1s;
 		-moz-transition: width 1s;
@@ -623,7 +623,7 @@ input {
 	}
 	.home-desc {
 		position: relative;
-		z-index: 100;
+		z-index: 5;
 		top: 35%;
 	}
 	.home-header-nav ul li {
@@ -642,7 +642,9 @@ input {
 		font-size: 25px;
 	}
 	.home-desc-down {
-		top: 350px;
+		top: 380px;
+		width: 20px;
+		height: 30px;
 	}
 	.home-desc {
 		width: 90%;
@@ -736,29 +738,39 @@ input {
 		background-color: var(--second-color);
 	}
 }
-@media (max-width: 500px) {
+@media (max-width: 382px) {
 	.features,
 	.home,
 	.why {
 		overflow: hidden;
 	}
+	.why-about {
+		margin-bottom: -90px;
+	}
+	.home-desc {
+		top: 280px;
+	}
 	.home-desc-down {
-		top: 390px;
+		top: 380px;
 	}
 	.features-about-pra,
 	.why-about-pra,
 	.why-about-text1 {
 		text-align: right;
 		position: relative;
-		left: -50%;
+		left: 0%;
 		margin: auto;
 	}
+	.why-about-text1 {
+		font-size: 15px;
+	}
 	.why-photos {
-		width: 70%;
+		max-width: 200px;
+		margin: auto;
 	}
 	.features-about-pra,
 	.why-about-pra {
-		width: 70%;
+		width: 80%;
 	}
 	.features-about-pra {
 		left: -8%;
